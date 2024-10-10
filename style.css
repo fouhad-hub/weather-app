@@ -22,6 +22,7 @@ body {
 .search-container {
   /* border: 1px solid red; */
   border-radius: 8px;
+  align-items: center;
 }
 .search-container input {
   border: 0px solid;
