@@ -10,11 +10,12 @@ body {
   font-family: sans-serif;
 }
 .card {
-  width: 90%;
-  max-width: 470px;
+  width: 100%;
+  height: 100svh;
+  /* max-width: 470px; */
   background: linear-gradient(135deg, #00feba, #5b548a);
   color: #fff;
-  margin: 100px auto 0;
+  /* margin: 100px auto 0; */
   border-radius: 20px;
   padding: 40px 35px;
   text-align: center;
@@ -45,14 +46,14 @@ body {
 }
 .weather-icon {
   width: 170px;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 .weather h1 {
   font-size: 80px;
   font-weight: 500;
 }
 .weather h2 {
-  font-size: 45px;
+  font-size: 55px;
   font-weight: 400;
   margin-top: -10px;
 }
@@ -61,7 +62,8 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  margin-top: 100px;
 }
 .col {
   display: flex;
@@ -70,12 +72,16 @@ body {
 }
 
 .col img {
-  width: 40px;
+  height: 50px;
+  width: 50px;
   margin-right: 10px;
+}
+.col p {
+  font-size: 30px;
 }
 
 .humidity,
 .wind {
-  font-size: 28px;
+  font-size: 58px;
   margin-top: -6px;
 }
